@@ -22,22 +22,22 @@ ENV/
 *~
 
 # Database files (local development)
-*.db
-*.sqlite
-*.sqlite3
-db/*.db
+#*.db
+#*.sqlite
+#*.sqlite3
+#db/*.db
 
 # Logs
-logs/
-*.log
+#logs/
+#*.log
 
 # Queue files (generated at runtime)
-queue/
-*.txt
+#queue/
+#*.txt
 
 # Data files (generated at runtime)
-data/
-*.json
+#data/
+#*.json
 
 # OS files
 .DS_Store

@@ -1,0 +1,41 @@
+2026-02-12 07:30:54 - INFO - Worker started, waiting for user events...
+2026-02-12 07:31:08 - INFO - Processing user 1
+2026-02-12 07:31:16 - INFO - Fetched posts for user 1 from aggregator API
+2026-02-12 07:31:16 - INFO - Saved posts to files\user_1_posts.json
+2026-02-12 07:31:16 - INFO - Successfully saved posts for user 1
+2026-02-12 07:31:16 - INFO - Processing user 2
+2026-02-12 07:31:23 - INFO - Fetched posts for user 2 from aggregator API
+2026-02-12 07:31:23 - INFO - Saved posts to files\user_2_posts.json
+2026-02-12 07:31:23 - INFO - Successfully saved posts for user 2
+2026-02-12 07:31:23 - INFO - Processing user 3
+2026-02-12 07:31:29 - INFO - Fetched posts for user 3 from aggregator API
+2026-02-12 07:31:29 - INFO - Saved posts to files\user_3_posts.json
+2026-02-12 07:31:29 - INFO - Successfully saved posts for user 3
+2026-02-12 07:31:29 - INFO - Processing user 4
+2026-02-12 07:31:34 - INFO - Fetched posts for user 4 from aggregator API
+2026-02-12 07:31:34 - INFO - Saved posts to files\user_4_posts.json
+2026-02-12 07:31:34 - INFO - Successfully saved posts for user 4
+2026-02-12 07:31:34 - INFO - Processing user 5
+2026-02-12 07:31:40 - INFO - Fetched posts for user 5 from aggregator API
+2026-02-12 07:31:40 - INFO - Saved posts to files\user_5_posts.json
+2026-02-12 07:31:40 - INFO - Successfully saved posts for user 5
+2026-02-12 07:31:40 - INFO - Processing user 6
+2026-02-12 07:31:46 - INFO - Fetched posts for user 6 from aggregator API
+2026-02-12 07:31:46 - INFO - Saved posts to files\user_6_posts.json
+2026-02-12 07:31:46 - INFO - Successfully saved posts for user 6
+2026-02-12 07:31:46 - INFO - Processing user 7
+2026-02-12 07:31:51 - INFO - Fetched posts for user 7 from aggregator API
+2026-02-12 07:31:51 - INFO - Saved posts to files\user_7_posts.json
+2026-02-12 07:31:51 - INFO - Successfully saved posts for user 7
+2026-02-12 07:31:51 - INFO - Processing user 8
+2026-02-12 07:31:56 - INFO - Fetched posts for user 8 from aggregator API
+2026-02-12 07:31:56 - INFO - Saved posts to files\user_8_posts.json
+2026-02-12 07:31:56 - INFO - Successfully saved posts for user 8
+2026-02-12 07:31:56 - INFO - Processing user 9
+2026-02-12 07:32:04 - INFO - Fetched posts for user 9 from aggregator API
+2026-02-12 07:32:04 - INFO - Saved posts to files\user_9_posts.json
+2026-02-12 07:32:04 - INFO - Successfully saved posts for user 9
+2026-02-12 07:32:04 - INFO - Processing user 10
+2026-02-12 07:32:10 - INFO - Fetched posts for user 10 from aggregator API
+2026-02-12 07:32:10 - INFO - Saved posts to files\user_10_posts.json
+2026-02-12 07:32:10 - INFO - Successfully saved posts for user 10
