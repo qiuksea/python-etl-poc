@@ -109,7 +109,6 @@ def save_users_batch(users_data: List[User]) ->  int:
                 VALUES (?, ?, ?, ?, ?)
             """, users_to_insert)
 
-            conn.commit()
             logger.info("Batch inserted %s users into database", len(users_to_insert))
 
             # Enqueue users

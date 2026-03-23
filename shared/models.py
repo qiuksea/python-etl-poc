@@ -7,19 +7,19 @@ from typing import List
 class User(BaseModel):
     """User model with common fields."""
     id: int  = Field(..., gt=0, description="User ID must be greater than 0")
-    username: str 
+    username: str
     firstname: str
     surname: str
     email: EmailStr
-    
+
     @field_validator('username', 'firstname', 'surname')
     @classmethod
     def strip_whitespace(cls, v: str) -> str:
         """Remove whitespace from string fields."""
         return v.strip()
-    
+
 class Comment(BaseModel):
-    """Comment model from API."""    
+    """Comment model from API."""
     id: int
     postId: int
     name: str
@@ -27,7 +27,7 @@ class Comment(BaseModel):
     body: str
 
 class Post(BaseModel):
-    """Post model with nested comments."""    
+    """Post model with nested comments."""
     id: int
     userId: int
     title: str
@@ -36,9 +36,9 @@ class Post(BaseModel):
 
 
 class UserPostsResponse(BaseModel):
-    """Aggregated response for user's posts and comments."""    
+    """Aggregated response for user's posts and comments."""
     user_id: int
-    posts: List[Post]
-    
+    posts: List[Post] 
+
 
 

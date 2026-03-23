@@ -1,41 +1,165 @@
-2026-02-12 07:30:54 - INFO - Worker started, waiting for user events...
-2026-02-12 07:31:08 - INFO - Processing user 1
-2026-02-12 07:31:16 - INFO - Fetched posts for user 1 from aggregator API
-2026-02-12 07:31:16 - INFO - Saved posts to files\user_1_posts.json
-2026-02-12 07:31:16 - INFO - Successfully saved posts for user 1
-2026-02-12 07:31:16 - INFO - Processing user 2
-2026-02-12 07:31:23 - INFO - Fetched posts for user 2 from aggregator API
-2026-02-12 07:31:23 - INFO - Saved posts to files\user_2_posts.json
-2026-02-12 07:31:23 - INFO - Successfully saved posts for user 2
-2026-02-12 07:31:23 - INFO - Processing user 3
-2026-02-12 07:31:29 - INFO - Fetched posts for user 3 from aggregator API
-2026-02-12 07:31:29 - INFO - Saved posts to files\user_3_posts.json
-2026-02-12 07:31:29 - INFO - Successfully saved posts for user 3
-2026-02-12 07:31:29 - INFO - Processing user 4
-2026-02-12 07:31:34 - INFO - Fetched posts for user 4 from aggregator API
-2026-02-12 07:31:34 - INFO - Saved posts to files\user_4_posts.json
-2026-02-12 07:31:34 - INFO - Successfully saved posts for user 4
-2026-02-12 07:31:34 - INFO - Processing user 5
-2026-02-12 07:31:40 - INFO - Fetched posts for user 5 from aggregator API
-2026-02-12 07:31:40 - INFO - Saved posts to files\user_5_posts.json
-2026-02-12 07:31:40 - INFO - Successfully saved posts for user 5
-2026-02-12 07:31:40 - INFO - Processing user 6
-2026-02-12 07:31:46 - INFO - Fetched posts for user 6 from aggregator API
-2026-02-12 07:31:46 - INFO - Saved posts to files\user_6_posts.json
-2026-02-12 07:31:46 - INFO - Successfully saved posts for user 6
-2026-02-12 07:31:46 - INFO - Processing user 7
-2026-02-12 07:31:51 - INFO - Fetched posts for user 7 from aggregator API
-2026-02-12 07:31:51 - INFO - Saved posts to files\user_7_posts.json
-2026-02-12 07:31:51 - INFO - Successfully saved posts for user 7
-2026-02-12 07:31:51 - INFO - Processing user 8
-2026-02-12 07:31:56 - INFO - Fetched posts for user 8 from aggregator API
-2026-02-12 07:31:56 - INFO - Saved posts to files\user_8_posts.json
-2026-02-12 07:31:56 - INFO - Successfully saved posts for user 8
-2026-02-12 07:31:56 - INFO - Processing user 9
-2026-02-12 07:32:04 - INFO - Fetched posts for user 9 from aggregator API
-2026-02-12 07:32:04 - INFO - Saved posts to files\user_9_posts.json
-2026-02-12 07:32:04 - INFO - Successfully saved posts for user 9
-2026-02-12 07:32:04 - INFO - Processing user 10
-2026-02-12 07:32:10 - INFO - Fetched posts for user 10 from aggregator API
-2026-02-12 07:32:10 - INFO - Saved posts to files\user_10_posts.json
-2026-02-12 07:32:10 - INFO - Successfully saved posts for user 10
+2026-02-13 10:41:37 - INFO - Worker started, waiting for user events...
+2026-02-13 10:46:53 - INFO - Processing user 1
+2026-02-13 10:47:01 - INFO - Fetched posts for user 1 from aggregator API
+2026-02-13 10:47:01 - INFO - Saved posts to files\user_1_posts.json
+2026-02-13 10:47:01 - INFO - Successfully saved posts for user 1
+2026-02-13 10:47:01 - INFO - Processing user 2
+2026-02-13 10:47:10 - INFO - Fetched posts for user 2 from aggregator API
+2026-02-13 10:47:10 - INFO - Saved posts to files\user_2_posts.json
+2026-02-13 10:47:10 - INFO - Successfully saved posts for user 2
+2026-02-13 10:47:10 - INFO - Processing user 3
+2026-02-13 10:47:19 - INFO - Fetched posts for user 3 from aggregator API
+2026-02-13 10:47:19 - INFO - Saved posts to files\user_3_posts.json
+2026-02-13 10:47:19 - INFO - Successfully saved posts for user 3
+2026-02-13 10:47:19 - INFO - Processing user 4
+2026-02-13 10:47:28 - INFO - Fetched posts for user 4 from aggregator API
+2026-02-13 10:47:28 - INFO - Saved posts to files\user_4_posts.json
+2026-02-13 10:47:28 - INFO - Successfully saved posts for user 4
+2026-02-13 10:47:28 - INFO - Processing user 5
+2026-02-13 10:47:36 - INFO - Fetched posts for user 5 from aggregator API
+2026-02-13 10:47:36 - INFO - Saved posts to files\user_5_posts.json
+2026-02-13 10:47:36 - INFO - Successfully saved posts for user 5
+2026-02-13 10:47:36 - INFO - Processing user 6
+2026-02-13 10:47:40 - ERROR - Connection error fetching posts for user 6
+Traceback (most recent call last):
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\urllib3\connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\urllib3\connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\urllib3\connection.py", line 500, in request
+    self.endheaders()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\urllib3\connection.py", line 331, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\urllib3\connection.py", line 219, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /users/6/posts (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\function\t4_worker.py", line 21, in fetch_user_posts
+    response = requests.get(url, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\requests\adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /users/6/posts (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-02-13 10:47:40 - ERROR - Failed to fetch posts for user 6
+2026-02-13 10:47:40 - INFO - Processing user 7
+2026-02-13 10:47:44 - ERROR - Connection error fetching posts for user 7
+Traceback (most recent call last):
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\urllib3\connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\urllib3\connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\urllib3\connection.py", line 500, in request
+    self.endheaders()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\urllib3\connection.py", line 331, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\urllib3\connection.py", line 219, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /users/7/posts (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\function\t4_worker.py", line 21, in fetch_user_posts
+    response = requests.get(url, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cs1jqi\Qi_Learning\Python\Practice\python_developer_task\.venv\Lib\site-packages\requests\adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /users/7/posts (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-02-13 10:47:44 - ERROR - Failed to fetch posts for user 7
+2026-02-13 10:47:44 - INFO - Processing user 8
+2026-02-13 10:47:46 - INFO - Worker stopped by user presse Ctrl+C
