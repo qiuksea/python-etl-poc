@@ -109,6 +109,6 @@ def main() -> None:
         logger.exception("Unexpected error in worker")
         raise RuntimeError("Worker failed") from exc
 
-
+# call main
 if __name__ == "__main__":
     main()
